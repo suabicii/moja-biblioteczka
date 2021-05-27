@@ -6,11 +6,14 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.CheckMenuItem;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import org.example.dialogs.DialogUtils;
 
 import java.io.IOException;
+import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class MainController {
@@ -41,8 +44,11 @@ public class MainController {
 
     @FXML
     public void closeApplication() {
-        Platform.exit();
-        System.exit(0);
+        Optional<ButtonType> result = DialogUtils.confirmationDialog();
+        if (result.get() == ButtonType.OK) {
+            Platform.exit();
+            System.exit(0);
+        }
     }
 
     @FXML
@@ -64,5 +70,6 @@ public class MainController {
 
     @FXML
     public void about() {
+        DialogUtils.dialogAboutApplication();
     }
 }
