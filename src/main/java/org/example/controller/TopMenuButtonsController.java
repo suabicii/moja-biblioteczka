@@ -5,10 +5,10 @@ import javafx.scene.control.ToggleGroup;
 
 public class TopMenuButtonsController {
 
-    public static final String LIBRARY_FXML = "/org/example/fxml/Library.fxml";
-    public static final String LIST_BOOKS_FXML = "/org/example/fxml/ListBooks.fxml";
-    public static final String STATISTICS_FXML = "/org/example/fxml/Statistics.fxml";
-    public static final String ADD_BOOK_FXML = "/org/example/fxml/AddBook.fxml";
+    public static final String LIBRARY_FXML = "/fxml/Library.fxml";
+    public static final String LIST_BOOKS_FXML = "/fxml/ListBooks.fxml";
+    public static final String STATISTICS_FXML = "/fxml/Statistics.fxml";
+    public static final String ADD_BOOK_FXML = "/fxml/AddBook.fxml";
     private MainController mainController;
 
     @FXML

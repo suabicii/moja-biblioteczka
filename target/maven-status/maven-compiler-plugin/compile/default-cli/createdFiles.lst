@@ -1,4 +1,6 @@
-org/example/controller/PrimaryController.class
 org/example/Main.class
+org/example/utils/FxmlUtils.class
+org/example/utils/DialogUtils.class
 module-info.class
-org/example/controller/SecondaryController.class
+org/example/controller/MainController.class
+org/example/controller/TopMenuButtonsController.class

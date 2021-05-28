@@ -1,4 +1,6 @@
 /home/michael/Dokumenty/Projekty/Java/JavaFX_Kurs/MojaBiblioteczka/src/main/java/module-info.java
 /home/michael/Dokumenty/Projekty/Java/JavaFX_Kurs/MojaBiblioteczka/src/main/java/org/example/Main.java
-/home/michael/Dokumenty/Projekty/Java/JavaFX_Kurs/MojaBiblioteczka/src/main/java/org/example/controller/SecondaryController.java
-/home/michael/Dokumenty/Projekty/Java/JavaFX_Kurs/MojaBiblioteczka/src/main/java/org/example/controller/PrimaryController.java
+/home/michael/Dokumenty/Projekty/Java/JavaFX_Kurs/MojaBiblioteczka/src/main/java/org/example/utils/DialogUtils.java
+/home/michael/Dokumenty/Projekty/Java/JavaFX_Kurs/MojaBiblioteczka/src/main/java/org/example/utils/FxmlUtils.java
+/home/michael/Dokumenty/Projekty/Java/JavaFX_Kurs/MojaBiblioteczka/src/main/java/org/example/controller/MainController.java
+/home/michael/Dokumenty/Projekty/Java/JavaFX_Kurs/MojaBiblioteczka/src/main/java/org/example/controller/TopMenuButtonsController.java
